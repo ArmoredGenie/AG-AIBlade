@@ -1,0 +1,2 @@
+Echo off
+MODE COM3:115200,N,8,1
