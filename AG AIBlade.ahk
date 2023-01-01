@@ -5,12 +5,14 @@ Thank you - Most of this started from https://www.autohotkey.com/boards/viewtopi
 */
 
 /* Instructions
-Find what comm port arduino is sitting at (My arduino is at port 3. NOTE: Only port 1 to 9 works, nothing higher. )
-open notepad, and write the following into this file :
+-Find what comm port arduino is sitting at (My arduino is at port 3. NOTE: Only port 1 to 9 works, nothing higher. )
+open notepad, and write the following into this file:
+
 	Echo off
 	MODE COM3:115200,N,8,1
-Name it Set_COM3.bat (make sure extension is .bat not .txt!) and place into root of  C drive. Example:
-	Set_COM3.bat
+	
+-Name it Set_COM3.bat (make sure extension is .bat not .txt!)
+-Place Set_COM3.bat into root of C drive.
 
 Important NOTES:
 - The second PC sees the arduino as a keyboard so mouse button keybinds are not supported on the second PC. You need 
@@ -21,9 +23,9 @@ Important NOTES:
   keyboard key presses too - see Ahutohotkey documentation (untested).
 
 Controls:
-right mouse button to press "\" on second PC for fire
-"t" on main PC to press "t" on second PC for target
-"'" on main PC to press "c" on second PC for center turret
+right mouse button will press "\" on second PC for fire
+"t" on main PC will press "t" on second PC for target
+"'" on main PC will press "c" on second PC for center turret
 */
 
 
